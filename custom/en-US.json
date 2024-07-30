@@ -1,0 +1,168 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "multipleValues": {
+                "enabled": true
+              },
+              "name": "service",
+              "type": "AMAZON.Service"
+            }
+          ],
+          "name": "GetService",
+          "samples": [
+            "i want {service}",
+            "do you offer {service}",
+            "{service}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "serviceDetail",
+              "type": "serviceDetail"
+            }
+          ],
+          "name": "GetPriceIntent",
+          "samples": [
+            "{serviceDetail} service",
+            "what does {serviceDetail} cost",
+            "how much for {serviceDetail}",
+            "schedule {serviceDetail}",
+            "{serviceDetail}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "synonyms": [
+                  "dog walker",
+                  "dog walking",
+                  "walking"
+                ],
+                "value": "walker"
+              },
+              "id": "WALK"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "obedience",
+                  "yaining",
+                  "dog trainer",
+                  "dog training"
+                ],
+                "value": "trainer"
+              },
+              "id": "TRAIN"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "shots",
+                  "veterinarian"
+                ],
+                "value": "vet"
+              },
+              "id": "VET"
+            }
+          ],
+          "name": "AMAZON.Service"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "weekly"
+              },
+              "id": "WEEKLY"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "bi-weekly",
+                  "twice"
+                ],
+                "value": "twice a week"
+              },
+              "id": "TWICE"
+            },
+            {
+              "name": {
+                "value": "daily"
+              },
+              "id": "DAILY"
+            },
+            {
+              "name": {
+                "value": "advanced"
+              },
+              "id": "ADVANCED"
+            },
+            {
+              "name": {
+                "value": "beginner"
+              },
+              "id": "BEGINNER"
+            },
+            {
+              "name": {
+                "value": "intermediate"
+              },
+              "id": "INTERMEDIATE"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "shots"
+                ],
+                "value": "vaccination"
+              },
+              "id": "SHOTS"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "check",
+                  "check-up",
+                  "check up",
+                  "evaluation"
+                ],
+                "value": "checkup"
+              },
+              "id": "CHECKUP"
+            }
+          ],
+          "name": "serviceDetail"
+        }
+      ],
+      "invocationName": "hound hub"
+    }
+  }
+}

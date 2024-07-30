@@ -1,0 +1,44 @@
+{
+    "services": [
+        {
+            "service": "walker",
+            "serviceDetail": "daily",
+            "price": 100
+        },
+        {
+            "service": "walker",
+            "serviceDetail": "twice Weekly",
+            "price": 50
+        },
+        {
+            "service": "walker",
+            "serviceDetail": "weekly",
+            "price": 20
+        },
+        {
+            "service": "trainer",
+            "serviceDetail": "beginner",
+            "price": 60
+        },
+        {
+            "service": "trainer",
+            "serviceDetail": "intermediate",
+            "price": 120
+        },
+        {
+            "service": "trainer",
+            "serviceDetail": "advanced",
+            "price": 150
+        },
+        {
+            "service": "veterinarian",
+            "serviceDetail": "vaccination",
+            "price": 125
+        },
+        {
+            "service": "vet",
+            "serviceDetail": "check-up",
+            "price": 75
+        }
+    ]
+}
