@@ -36,8 +36,16 @@ Hound Hub provides customers with information about the services offered. Whethe
 - **User:** "Alexa, ask Hound Hub about dog training."
 - **Hound Hub:** "Our dog training services include basic obedience, advanced tricks, and behavior modification. Prices start at $50 per session."
 
+  <p align="center">
+    <img src="assets/images/1.png" alt="Dog Training Example" width="300"/>
+  </p>
+
 - **User:** "Alexa, ask Hound Hub for the price of dog walking."
 - **Hound Hub:** "Our dog walking services are available at $20 per hour."
+
+  <p align="center">
+    <img src="assets/images/2.png" alt="Dog Walking Example" width="300"/>
+  </p>
 
 ## Contributing
 
