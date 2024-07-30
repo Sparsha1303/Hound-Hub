@@ -43,7 +43,7 @@ We welcome contributions to enhance Hound Hub. Feel free to fork this repository
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the GNU License. See the [LICENSE](LICENSE) file for more details.
 
 
 We hope you enjoy using Hound Hub as much as we enjoyed creating it. Happy training, walking, and caring for your furry friends!
