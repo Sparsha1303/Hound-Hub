@@ -6,7 +6,9 @@ Welcome to **Hound Hub**, your one-stop Alexa skill for all your dog training ne
 
 Hound Hub provides customers with information about the services offered. Whether you need dog training, dog walking, or veterinary care, Hound Hub has you covered. With this skill, you can quickly learn about the services available and get pricing information with a simple voice command.
 
-![Hound Hub Logo](assets/images/logo.png)
+<div style="text-align: center;">
+  <img src="assets/images/logo.png" alt="Hound Hub Logo" width="200"/>
+</div>
 
 ## Features
 
